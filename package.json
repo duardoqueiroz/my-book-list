@@ -1,0 +1,23 @@
+{
+  "name": "my-book-list",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A Web Crawler of the website https://www.goodreads.com",
+  "dependencies": {
+    "crawlee": "^3.0.0",
+    "puppeteer": "*"
+  },
+  "devDependencies": {
+    "@apify/tsconfig": "^0.1.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "ts-node-esm -T src/main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+  },
+  "author": "duardoqueiroz",
+  "license": "MIT"
+}
