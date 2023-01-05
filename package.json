@@ -5,7 +5,8 @@
   "description": "A Web Crawler of the website https://www.goodreads.com",
   "dependencies": {
     "crawlee": "^3.0.0",
-    "puppeteer": "*"
+    "puppeteer": "^19.4.1",
+    "mongoose": "^6.8.0"
   },
   "devDependencies": {
     "@apify/tsconfig": "^0.1.0",
